@@ -1,0 +1,184 @@
+/*===============
+      General
+ ================*/
+
+body {
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #404040;
+}
+
+a:hover {
+  text-decoration: underline;
+  }
+
+/*===============
+ Navagation BAR
+ ================*/
+
+.nav_bar {
+  display: block;
+  float: right;
+}
+
+.nav_bar li {
+  display:inline-block;
+  padding-left:15px;
+}
+
+.nav_bar li img {
+    height: 24px;
+    position: relative;
+    top: 7px;
+  }
+
+.nav_bar .face img {
+  border-radius:50%;
+  height:33px;
+}
+
+.face {
+  padding-right:25px;
+  position:relative;
+  top:3px;
+}
+
+/*===============
+    MAIN BODY
+ ================*/
+
+.container_main {
+  display:block;
+  width:100%;
+  tex-align:center;
+}
+
+.logo {
+  width:100%;
+  padding-top: 200px;
+  padding-bottom:25px;
+}
+
+.logo img {
+  display:block;
+  width: 269px;
+  height: 95px;
+  margin: auto;
+}
+
+.searchbox {
+  width: 592px;
+  height: 27px;
+  margin: auto;
+  position:relative;
+}
+
+.searchbox input {
+  width: 570px;
+  height: 100%;
+  border: 1px solid #DDDDD;
+  padding: 0 10px;
+  position: relative;
+  float: left;
+  z-index:10;
+}
+
+.container_mic {
+  position:absolute;
+  width: 100%;
+  height:100;
+}
+
+.container_mic img {
+  float:right;
+  height: 21px;
+  position: relative;
+  top:4px;
+  right:6px;
+  z-index:11;
+}
+
+.searchbox input:hover {
+  border:1px solid #AEAEAE
+}
+
+.container_buttons_search {
+  display: block;
+  margin-top: 15px;
+}
+
+.container_buttons_search .button_search {
+  margin-right: 6px;
+  margin-left: 6px;
+  border:1px solid #DDD;
+  padding: 8px 3px;
+  display: inline-block;
+  background-color: #F2F2F2;
+  font-size:11px;
+  font-weight:600;
+}
+
+.button_search: hover {
+  border-bottom: 2px solid #CACACA;
+  background-color: #F5F5F5;
+}
+
+.button_search {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.button_search a:hover {
+  text-decoration: none;
+}
+
+.google_search {
+  width: 90px;
+}
+
+.feeling_lucky {
+  width: 105px;
+}
+
+/*===============
+    FOOTER
+ ================*/
+
+.footer {
+  position:absolute;
+  width: 100%;
+  height: 40px;
+  background-color: #F2F2F2;
+  bottom: 1px;
+  border-top: 1px solid #E4E4E4;
+}
+
+.footer-left {
+  display:block;
+  float: left;
+  width: 48%;
+}
+
+.footer-right {
+  display: block;
+  text-align: right;
+}
+
+.footer-right ul li, .footer-left ul li {
+  display:inline-block;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  color: #666;
+}
+
+.footer-left ul li {
+  padding-left: 30px;
+}
+
+.footer-right ul li {
+  padding-right: 30px;
+}
