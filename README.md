@@ -1,7 +1,9 @@
 # google-homepage
-Brad Peck - Read Me - Project for Odin
+Brad Peck - Project 1: The Odin Project.com
 <br>
-The following links were added via Terminal and Atom
+This is my first project I've completed, and the beginning of my coding/programming journey.
 <br>
-http://www.theodinproject.com/web-development-101/html-css
-https://github.com/br0000d/google-homepage
+Creating this page took roughly 5-6 hours.
+<br>
+<br>
+http://htmlpreview.github.io/?https://github.com/br0000d/google-homepage/blob/master/Project/index.html
